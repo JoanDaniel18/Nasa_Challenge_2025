@@ -1,9 +1,9 @@
-# 🌎 It Will Rain on My Parade?  
+#  It Will Rain on My Parade?  
 ### Proyecto presentado en el *NASA Space Apps Challenge Hackathon 2025*
 
 Desarrollado por el *Team: Weather_Forecast*
 
-👩‍💻 *Integrantes:*
+ *Integrantes:*
 - Daheny Lopez  
 - Jhony Peñaherrera  
 - Silvia García  
@@ -13,11 +13,11 @@ Desarrollado por el *Team: Weather_Forecast*
 
 ---
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Sistema de predicción climática para Ecuador que utiliza un modelo **Random Forest MultiOutput** entrenado con datos históricos de NASA POWER. El sistema predice 6 variables climáticas simultáneamente para cualquier ubicación dentro del territorio ecuatoriano.
 
-### 🎯 Variables Predichas
+###  Variables Predichas
 - **T2M**: Temperatura a 2 metros (°C)
 - **RH2M**: Humedad relativa a 2 metros (%)
 - **WS10M**: Velocidad del viento a 10 metros (m/s)
@@ -28,7 +28,7 @@ Sistema de predicción climática para Ecuador que utiliza un modelo **Random Fo
 
 ---
 
-## 🧪 Pruebas del Modelo - Aplicación Streamlit
+##  Pruebas del Modelo - Aplicación Streamlit
 
 Para validar el funcionamiento del modelo Random Forest, desarrollamos una **aplicación demo en Streamlit** que permite:
 
@@ -37,7 +37,7 @@ Para validar el funcionamiento del modelo Random Forest, desarrollamos una **apl
 - Visualizar las 6 variables climáticas predichas en tiempo real
 - Verificar la precisión del modelo con datos reales
 
-### 📊 Rendimiento del Modelo
+### Rendimiento del Modelo
 El modelo Random Forest MultiOutput fue entrenado con un dataset de **2+ millones de registros** históricos y alcanzó los siguientes scores R²:
 
 - Temperatura (T2M): **0.95**
@@ -47,7 +47,7 @@ El modelo Random Forest MultiOutput fue entrenado con un dataset de **2+ millone
 - Radiación solar (ALLSKY_SFC_SW_DWN): **0.91**
 - Probabilidad de precipitación (PoP): **0.45**
 
-### 🎬 Demo en Streamlit
+###  Demo en Streamlit
 La aplicación Streamlit (`weather_demo_app.py`) sirvió como entorno de pruebas para validar:
 - Carga correcta de los modelos entrenados
 - Procesamiento de coordenadas geográficas
@@ -57,20 +57,15 @@ La aplicación Streamlit (`weather_demo_app.py`) sirvió como entorno de pruebas
 
 ---
 
-## ⚠️ Archivos del Modelo (.pkl)
+##  Archivos del Modelo (.pkl)
 
 Debido al tamaño considerable de los archivos del modelo entrenado (>100MB), **no fue posible subirlos directamente a GitHub**. 
 
-### 📦 Descarga de Modelos
+###  Descarga del Modelo
 
-Puedes descargar los 3 archivos necesarios desde MEGA:
+Puedes descargar el  archivo necesario desde MEGA:
 
 **🔗 [Descargar modelos desde MEGA](https://mega.nz/file/iwwkQDQI#veGcq2FKE9nk35A8hZfYX3j9o60GHfJYkyGAdkjnOr4)**
-
-Los archivos incluidos son:
-- `weather_model.pkl` - Modelo Random Forest entrenado
-- `weather_scaler.pkl` - StandardScaler para normalización de features
-- `weather_config.pkl` - Configuración y metadatos del modelo
 
 **Instrucciones de uso:**
 1. Descarga el archivo desde el link de MEGA
@@ -79,19 +74,10 @@ Los archivos incluidos son:
 
 ---
 
-## 🏗️ Arquitectura del Sistema
+## 🛰️ Créditos y reconocimiento
 
-### Backend - API FastAPI
-- **Framework**: FastAPI con soporte CORS
-- **Modelo ML**: Random Forest MultiOutput (scikit-learn)
-- **Normalización**: StandardScaler
-- **Endpoints REST**: Predicciones por coordenadas y fecha/hora
-- **Documentación**: Swagger UI automática en `/docs`
+**Proyecto:** *It Will Rain on My Parade?*  
+**Equipo:** *Weather_Forecast* — NASA Space Apps Challenge Hackathon 2025  
+**Categoría:** Ciencia de datos, predicción meteorológica y visualización geoespacial.
 
-### Aplicación de Pruebas - Streamlit
-- **Mapa interactivo**: Selección visual de ubicaciones en Ecuador
-- **Predicciones en tiempo real**: Visualización de las 6 variables climáticas
-- **Gráficos**: Charts interactivos con Plotly
-- **Caching**: Optimización de carga del modelo
 
-### Estructura del Proyecto
