@@ -25,8 +25,6 @@ Sistema de predicción climática para Ecuador que utiliza un modelo **Random Fo
 - **ALLSKY_SFC_SW_DWN**: Radiación solar descendente (W/m²)
 - **PoP**: Probabilidad de precipitación (%)
 
-### 🗺️ Región de Cobertura
-**Ecuador completo**: -81°W a -75°W, -5°S a 5°N
 
 ---
 
