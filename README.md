@@ -57,7 +57,39 @@ La aplicación Streamlit (`weather_demo_app.py`) sirvió como entorno de pruebas
 
 ---
 
+### Estructura de los modelos desarrollados:
+
+| Nombre del archivo | Descripción | Último commit |
+|--------------------|-------------|----------------|
+| `random_forest.py` | Script para el entrenamiento y evaluación del modelo **Random Forest** utilizando las variables meteorológicas procesadas. | `Add files via upload` |
+| `train_weather_lstm.py` | Script para el entrenamiento del modelo **LSTM (RNN)** enfocado en la predicción de condiciones climáticas a partir de series temporales. | `Add files via upload` |
+
+---
+
+###  Descripción general
+
+Esta carpeta contiene los scripts principales utilizados para **el modelamiento y entrenamiento de predictores climáticos** basados en datos de la NASA.  
+Los modelos desarrollados incluyen:
+
+- **Random Forest:** para el análisis de patrones no lineales y predicción a corto plazo.  
+- **LSTM (Long Short-Term Memory):** red neuronal recurrente para la predicción secuencial del clima a partir de variables meteorológicas históricas.
+
+---
+
+### ⚙️ Modificación del dataset
+
+Durante el proceso de desarrollo, **la base de datos fue modificada y extendida**.  
+Se aplicaron diversas técnicas de generación y enriquecimiento de datos para **incluir exitosamente la variable de precipitación (`pop`)**, lo cual permitió mejorar la precisión del modelo.
+
+---
+
+### Acceso al dataset
+
+Debido al gran tamaño del conjunto de datos, el archivo CSV original se encuentra disponible en Google Drive:  
+📁 [Descargar dataset (.csv)](https://drive.google.com/file/d/1r2yINzDHarD1uLNHs_9cizrZYXw3FqB_/view?usp=sharing)
 ##  Archivos del Modelo (.pkl)
+
+---
 
 Debido al tamaño considerable de los archivos del modelo entrenado (>100MB), **no fue posible subirlos directamente a GitHub**. 
 
