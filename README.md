@@ -61,7 +61,7 @@ La aplicación Streamlit (`weather_demo_app.py`) sirvió como entorno de pruebas
 
 | Nombre del archivo | Descripción | Último commit |
 |--------------------|-------------|----------------|
-| `random_forest.py` | Script para el entrenamiento y evaluación del modelo **Random Forest** utilizando las variables meteorológicas procesadas. | `Add files via upload` |
+| `random_forest.py` | Script para el entrenamiento y evaluación del modelo **Random Forest** utilizando las variables procesadas. | `Add files via upload` |
 | `train_weather_lstm.py` | Script para el entrenamiento del modelo **LSTM (RNN)** enfocado en la predicción de condiciones climáticas a partir de series temporales. | `Add files via upload` |
 
 ---
@@ -76,17 +76,17 @@ Los modelos desarrollados incluyen:
 
 ---
 
-### ⚙️ Modificación del dataset
+###  Modificación del dataset
 
 Durante el proceso de desarrollo, **la base de datos fue modificada y extendida**.  
-Se aplicaron diversas técnicas de generación y enriquecimiento de datos para **incluir exitosamente la variable de precipitación (`pop`)**, lo cual permitió mejorar la precisión del modelo.
+Se aplicaron diversas técnicas de generación y enriquecimiento de datos para **incluir exitosamente la variable de precipitación (`PoP`)**, lo cual permitió mejorar la precisión del modelo.
 
 ---
 
 ### Acceso al dataset
 
 Debido al gran tamaño del conjunto de datos, el archivo CSV original se encuentra disponible en Google Drive:  
-📁 [Descargar dataset (.csv)](https://drive.google.com/file/d/1r2yINzDHarD1uLNHs_9cizrZYXw3FqB_/view?usp=sharing)
+ [Descargar dataset (.csv)](https://drive.google.com/file/d/1r2yINzDHarD1uLNHs_9cizrZYXw3FqB_/view?usp=sharing)
 ##  Archivos del Modelo (.pkl)
 
 ---
@@ -97,7 +97,7 @@ Debido al tamaño considerable de los archivos del modelo entrenado (>100MB), **
 
 Puedes descargar el  archivo necesario desde MEGA:
 
-**🔗 [Descargar modelos desde MEGA](https://mega.nz/file/iwwkQDQI#veGcq2FKE9nk35A8hZfYX3j9o60GHfJYkyGAdkjnOr4)**
+** [Descargar modelos desde MEGA](https://mega.nz/file/iwwkQDQI#veGcq2FKE9nk35A8hZfYX3j9o60GHfJYkyGAdkjnOr4)**
 
 **Instrucciones de uso:**
 1. Descarga el archivo desde el link de MEGA
