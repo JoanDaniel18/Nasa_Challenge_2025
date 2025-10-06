@@ -74,6 +74,10 @@ Puedes descargar el  archivo necesario desde MEGA:
 
 ---
 
+## Anexos:
+<img width="1920" height="1044" alt="image" src="https://github.com/user-attachments/assets/4f4f07d2-87e7-485f-be91-7bc08048af44" />
+<img width="1920" height="1056" alt="image" src="https://github.com/user-attachments/assets/791c3682-c5a8-4d01-b57d-c325ee3084a7" />
+
 ## 🛰️ Créditos y reconocimiento
 
 **Proyecto:** *It Will Rain on My Parade?*  
