@@ -1,0 +1,39 @@
+                                                                                                                                                                                
+┌──(daniel㉿daniel)-[~/Escritorio/Hackaton]
+└─$ /bin/python /home/daniel/Escritorio/Hackaton/train_weather_lstm.py
+2025-10-05 01:50:03.306592: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-10-05 01:50:03.381156: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-10-05 01:50:04.515102: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+✅ TensorFlow importado correctamente
+============================================================
+🧠 ENTRENAMIENTO DE MODELO LSTM
+Predicción: Soleado vs Nublado
+============================================================
+
+📂 Cargando datos desde: nasa_power_ecuador
+   Archivos encontrados: 240
+✅ Datos cargados: 2,104,704 registros
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'DATE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/daniel/Escritorio/Hackaton/train_weather_lstm.py", line 84, in <module>
+    df['DATE'] = pd.to_datetime(df['DATE'])
+                                ~~^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'DATE'
+                                                                                                                                                                                
+┌──(daniel㉿daniel)-[~/Escritorio/Hackaton]

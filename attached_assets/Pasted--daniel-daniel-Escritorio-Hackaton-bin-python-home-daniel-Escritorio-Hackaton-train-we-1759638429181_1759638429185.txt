@@ -1,0 +1,732 @@
+┌──(daniel㉿daniel)-[~/Escritorio/Hackaton]
+└─$ /bin/python /home/daniel/Escritorio/Hackaton/train_weather_model.py
+============================================================
+🌤️  ENTRENAMIENTO DE MODELO CLIMÁTICO
+============================================================
+❌ No se encontraron archivos CSV en: .
+                                                                                                                                                                                                 
+┌──(daniel㉿daniel)-[~/Escritorio/Hackaton]
+└─$ /bin/python /home/daniel/Escritorio/Hackaton/train_weather_model.py
+============================================================
+🌤️  ENTRENAMIENTO DE MODELO CLIMÁTICO
+============================================================
+📂 Encontrados 240 archivos CSV:
+   • hourly_2021_-2.5_-78.35.csv
+   • hourly_2023_-4.0_-75.65.csv
+   • hourly_2024_0.0_-77.675.csv
+   • hourly_2022_-2.5_-78.35.csv
+   • hourly_2021_-1.0_-78.35.csv
+   • hourly_2020_-1.5_-79.70625.csv
+   • hourly_2020_-1.5_-75.65.csv
+   • hourly_2023_-2.5_-77.675.csv
+   • hourly_2020_-3.5_-77.675.csv
+   • hourly_2023_-1.5_-77.0.csv
+   • hourly_2024_-1.5_-77.0.csv
+   • hourly_2022_0.0_-79.70625.csv
+   • hourly_2023_-1.0_-78.35.csv
+   • hourly_2021_-1.0_-79.70625.csv
+   • hourly_2023_0.0_-79.70625.csv
+   • hourly_2021_-1.0_-76.325.csv
+   • hourly_2023_0.0_-77.0.csv
+   • hourly_2023_0.0_-75.65.csv
+   • hourly_2021_-2.5_-79.70625.csv
+   • hourly_2023_-3.5_-80.38125.csv
+   • hourly_2021_0.0_-77.0.csv
+   • hourly_2021_-4.0_-77.675.csv
+   • hourly_2024_-2.5_-76.325.csv
+   • hourly_2022_-3.5_-80.38125.csv
+   • hourly_2023_-2.5_-77.0.csv
+   • hourly_2023_0.0_-79.03125.csv
+   • hourly_2023_-2.5_-79.70625.csv
+   • hourly_2024_-1.5_-78.35.csv
+   • hourly_2022_-2.5_-77.0.csv
+   • hourly_2022_0.0_-77.675.csv
+   • hourly_2022_-2.5_-77.675.csv
+   • hourly_2024_-1.5_-75.65.csv
+   • hourly_2021_-1.0_-75.65.csv
+   • hourly_2022_-1.0_-77.675.csv
+   • hourly_2020_-3.5_-80.38125.csv
+   • hourly_2024_-1.0_-75.65.csv
+   • hourly_2024_-2.5_-79.70625.csv
+   • hourly_2023_-3.5_-77.675.csv
+   • hourly_2023_-1.5_-78.35.csv
+   • hourly_2021_-1.0_-77.675.csv
+   • hourly_2023_-4.0_-77.675.csv
+   • hourly_2023_-1.0_-77.675.csv
+   • hourly_2023_0.0_-76.325.csv
+   • hourly_2022_-4.0_-79.03125.csv
+   • hourly_2020_-4.0_-77.675.csv
+   • hourly_2020_0.0_-76.325.csv
+   • hourly_2020_-2.5_-75.65.csv
+   • hourly_2020_-3.5_-79.03125.csv
+   • hourly_2022_-1.0_-80.38125.csv
+   • hourly_2022_-3.5_-79.03125.csv
+   • hourly_2024_-1.5_-79.03125.csv
+   • hourly_2023_-1.5_-76.325.csv
+   • hourly_2024_-1.0_-77.675.csv
+   • hourly_2021_-3.5_-80.38125.csv
+   • hourly_2022_-1.0_-76.325.csv
+   • hourly_2023_-3.5_-77.0.csv
+   • hourly_2024_-1.0_-79.70625.csv
+   • hourly_2024_-2.5_-75.65.csv
+   • hourly_2024_-3.5_-79.70625.csv
+   • hourly_2023_-4.0_-76.325.csv
+   • hourly_2022_-1.5_-76.325.csv
+   • hourly_2023_-4.0_-79.70625.csv
+   • hourly_2024_0.0_-78.35.csv
+   • hourly_2020_-1.0_-79.03125.csv
+   • hourly_2021_-1.5_-79.70625.csv
+   • hourly_2021_0.0_-77.675.csv
+   • hourly_2023_-1.5_-77.675.csv
+   • hourly_2022_-1.0_-79.03125.csv
+   • hourly_2022_-2.5_-80.38125.csv
+   • hourly_2023_-4.0_-80.38125.csv
+   • hourly_2022_-4.0_-77.675.csv
+   • hourly_2023_-4.0_-79.03125.csv
+   • hourly_2024_-2.5_-78.35.csv
+   • hourly_2021_-1.5_-78.35.csv
+   • hourly_2020_-1.5_-79.03125.csv
+   • hourly_2023_0.0_-78.35.csv
+   • hourly_2021_-3.5_-77.0.csv
+   • hourly_2020_0.0_-79.03125.csv
+   • hourly_2022_-4.0_-75.65.csv
+   • hourly_2023_-3.5_-75.65.csv
+   • hourly_2022_-1.0_-79.70625.csv
+   • hourly_2024_-1.5_-76.325.csv
+   • hourly_2022_-3.5_-79.70625.csv
+   • hourly_2023_-1.0_-77.0.csv
+   • hourly_2024_0.0_-79.70625.csv
+   • hourly_2024_-1.0_-78.35.csv
+   • hourly_2023_-3.5_-79.03125.csv
+   • hourly_2022_-1.5_-75.65.csv
+   • hourly_2024_-4.0_-79.70625.csv
+   • hourly_2022_-2.5_-76.325.csv
+   • hourly_2024_-1.5_-80.38125.csv
+   • hourly_2022_-1.5_-78.35.csv
+   • hourly_2022_-1.0_-78.35.csv
+   • hourly_2022_-1.0_-77.0.csv
+   • hourly_2021_-1.0_-79.03125.csv
+   • hourly_2020_0.0_-79.70625.csv
+   • hourly_2022_0.0_-75.65.csv
+   • hourly_2020_-1.5_-78.35.csv
+   • hourly_2023_-2.5_-80.38125.csv
+   • hourly_2020_-3.5_-78.35.csv
+   • hourly_2021_-3.5_-79.03125.csv
+   • hourly_2020_-1.0_-80.38125.csv
+   • hourly_2020_-3.5_-75.65.csv
+   • hourly_2023_-4.0_-77.0.csv
+   • hourly_2024_-3.5_-80.38125.csv
+   • hourly_2024_-1.5_-77.675.csv
+   • hourly_2021_0.0_-78.35.csv
+   • hourly_2024_-4.0_-79.03125.csv
+   • hourly_2024_-4.0_-76.325.csv
+   • hourly_2023_-1.5_-79.70625.csv
+   • hourly_2020_-1.0_-75.65.csv
+   • hourly_2020_-2.5_-78.35.csv
+   • hourly_2020_-2.5_-77.0.csv
+   • hourly_2022_-2.5_-79.70625.csv
+   • hourly_2020_-1.5_-76.325.csv
+   • hourly_2023_-1.0_-79.03125.csv
+   • hourly_2020_-4.0_-79.70625.csv
+   • hourly_2024_-2.5_-80.38125.csv
+   • hourly_2024_0.0_-80.38125.csv
+   • hourly_2020_0.0_-77.675.csv
+   • hourly_2021_-2.5_-77.0.csv
+   • hourly_2021_-2.5_-76.325.csv
+   • hourly_2020_-2.5_-76.325.csv
+   • hourly_2024_-1.5_-79.70625.csv
+   • hourly_2022_-4.0_-79.70625.csv
+   • hourly_2022_0.0_-77.0.csv
+   • hourly_2020_-1.0_-78.35.csv
+   • hourly_2022_-1.5_-79.03125.csv
+   • hourly_2022_-3.5_-76.325.csv
+   • hourly_2020_-1.0_-77.675.csv
+   • hourly_2021_0.0_-79.70625.csv
+   • hourly_2021_-2.5_-80.38125.csv
+   • hourly_2024_-2.5_-79.03125.csv
+   • hourly_2020_-1.5_-77.0.csv
+   • hourly_2020_-1.5_-80.38125.csv
+   • hourly_2022_-2.5_-79.03125.csv
+   • hourly_2021_-4.0_-80.38125.csv
+   • hourly_2021_-1.5_-77.675.csv
+   • hourly_2024_-3.5_-77.0.csv
+   • hourly_2023_-3.5_-78.35.csv
+   • hourly_2022_0.0_-78.35.csv
+   • hourly_2023_-3.5_-76.325.csv
+   • hourly_2024_-1.0_-80.38125.csv
+   • hourly_2022_-1.5_-79.70625.csv
+   • hourly_2022_-1.5_-80.38125.csv
+   • hourly_2023_-1.0_-80.38125.csv
+   • hourly_2021_-1.0_-80.38125.csv
+   • hourly_2021_0.0_-79.03125.csv
+   • hourly_2021_-4.0_-76.325.csv
+   • hourly_2024_0.0_-75.65.csv
+   • hourly_2024_-1.0_-77.0.csv
+   • hourly_2024_-2.5_-77.675.csv
+   • hourly_2021_0.0_-76.325.csv
+   • hourly_2022_-3.5_-78.35.csv
+   • hourly_2024_-3.5_-75.65.csv
+   • hourly_2022_-4.0_-80.38125.csv
+   • hourly_2021_-4.0_-79.03125.csv
+   • hourly_2023_-2.5_-76.325.csv
+   • hourly_2024_-4.0_-80.38125.csv
+   • hourly_2023_-4.0_-78.35.csv
+   • hourly_2024_-3.5_-76.325.csv
+   • hourly_2022_-4.0_-76.325.csv
+   • hourly_2023_-1.5_-75.65.csv
+   • hourly_2023_-2.5_-79.03125.csv
+   • hourly_2024_-4.0_-77.0.csv
+   • hourly_2024_-3.5_-77.675.csv
+   • hourly_2023_0.0_-80.38125.csv
+   • hourly_2023_-2.5_-75.65.csv
+   • hourly_2021_-1.5_-76.325.csv
+   • hourly_2022_-3.5_-77.0.csv
+   • hourly_2022_-2.5_-75.65.csv
+   • hourly_2021_-4.0_-78.35.csv
+   • hourly_2020_-4.0_-77.0.csv
+   • hourly_2022_-3.5_-77.675.csv
+   • hourly_2020_-4.0_-79.03125.csv
+   • hourly_2022_-4.0_-77.0.csv
+   • hourly_2022_0.0_-79.03125.csv
+   • hourly_2022_-3.5_-75.65.csv
+   • hourly_2024_-3.5_-79.03125.csv
+   • hourly_2020_0.0_-75.65.csv
+   • hourly_2024_0.0_-79.03125.csv
+   • hourly_2020_-1.5_-77.675.csv
+   • hourly_2020_-4.0_-75.65.csv
+   • hourly_2024_-2.5_-77.0.csv
+   • hourly_2023_0.0_-77.675.csv
+   • hourly_2022_-1.5_-77.675.csv
+   • hourly_2020_-3.5_-79.70625.csv
+   • hourly_2024_-4.0_-78.35.csv
+   • hourly_2020_0.0_-78.35.csv
+   • hourly_2023_-1.0_-75.65.csv
+   • hourly_2020_-3.5_-77.0.csv
+   • hourly_2024_-1.0_-79.03125.csv
+   • hourly_2021_0.0_-75.65.csv
+   • hourly_2021_-2.5_-77.675.csv
+   • hourly_2021_-4.0_-77.0.csv
+   • hourly_2021_-3.5_-78.35.csv
+   • hourly_2023_-3.5_-79.70625.csv
+   • hourly_2022_0.0_-76.325.csv
+   • hourly_2021_-3.5_-75.65.csv
+   • hourly_2021_-4.0_-75.65.csv
+   • hourly_2020_0.0_-80.38125.csv
+   • hourly_2023_-2.5_-78.35.csv
+   • hourly_2022_-4.0_-78.35.csv
+   • hourly_2021_-1.5_-80.38125.csv
+   • hourly_2021_-3.5_-76.325.csv
+   • hourly_2021_-2.5_-75.65.csv
+   • hourly_2020_-3.5_-76.325.csv
+   • hourly_2021_-1.5_-79.03125.csv
+   • hourly_2020_-1.0_-79.70625.csv
+   • hourly_2024_-1.0_-76.325.csv
+   • hourly_2020_-4.0_-78.35.csv
+   • hourly_2020_-2.5_-79.03125.csv
+   • hourly_2023_-1.0_-76.325.csv
+   • hourly_2020_-2.5_-79.70625.csv
+   • hourly_2021_-2.5_-79.03125.csv
+   • hourly_2020_-2.5_-80.38125.csv
+   • hourly_2020_-1.0_-76.325.csv
+   • hourly_2021_-3.5_-79.70625.csv
+   • hourly_2020_0.0_-77.0.csv
+   • hourly_2024_-3.5_-78.35.csv
+   • hourly_2023_-1.0_-79.70625.csv
+   • hourly_2023_-1.5_-80.38125.csv
+   • hourly_2022_-1.5_-77.0.csv
+   • hourly_2021_-4.0_-79.70625.csv
+   • hourly_2020_-1.0_-77.0.csv
+   • hourly_2024_-4.0_-77.675.csv
+   • hourly_2022_0.0_-80.38125.csv
+   • hourly_2021_-3.5_-77.675.csv
+   • hourly_2021_-1.0_-77.0.csv
+   • hourly_2020_-4.0_-80.38125.csv
+   • hourly_2020_-4.0_-76.325.csv
+   • hourly_2020_-2.5_-77.675.csv
+   • hourly_2021_0.0_-80.38125.csv
+   • hourly_2021_-1.5_-77.0.csv
+   • hourly_2024_0.0_-77.0.csv
+   • hourly_2023_-1.5_-79.03125.csv
+   • hourly_2024_-4.0_-75.65.csv
+   • hourly_2022_-1.0_-75.65.csv
+   • hourly_2024_0.0_-76.325.csv
+   • hourly_2021_-1.5_-75.65.csv
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-4.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-2.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-3.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-2.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_0.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-3.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-2.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-4.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-3.5_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-1.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-2.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_0.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-3.5_-78.35.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-4.0_-79.70625.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-1.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_0.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-3.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-4.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2020_-2.5_-77.675.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_0.0_-80.38125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-77.0.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2023_-1.5_-79.03125.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_-4.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2022_-1.0_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2024_0.0_-76.325.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9
+
+   ⚠️  Error leyendo nasa_power_ecuador/hourly_2021_-1.5_-75.65.csv: Error tokenizing data. C error: Expected 1 fields in line 14, saw 9

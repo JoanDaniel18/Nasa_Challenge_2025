@@ -1,0 +1,63 @@
+┌──(daniel㉿daniel)-[~/Escritorio/Hackaton]
+└─$ python3 -c "from harmony_4 import test_historical_january_data; test_historical_january_data()"
+================================================================================
+🗓️  PROBANDO DATOS HISTÓRICOS: 1 de Enero (1990-2020)
+================================================================================
+📦 Colección: C1598621096-GES_DISC
+📍 Región: Ecuador
+
+📅 1990-01-01: ✅ Datos directos - 11059 bytes
+📅 1991-01-01: ✅ Datos directos - 11059 bytes
+📅 1992-01-01: ✅ Datos directos - 11059 bytes
+📅 1993-01-01: ✅ Datos directos - 11059 bytes
+📅 1994-01-01: ✅ Datos directos - 11059 bytes
+📅 1995-01-01: ✅ Datos directos - 9500 bytes
+📅 1996-01-01: ✅ Datos directos - 11059 bytes
+📅 1997-01-01: ✅ Datos directos - 11059 bytes
+📅 1998-01-01: ✅ Datos directos - 11059 bytes
+📅 1999-01-01: ✅ Datos directos - 11059 bytes
+📅 2000-01-01: ✅ Datos directos - 9500 bytes
+📅 2001-01-01: ✅ Datos directos - 11059 bytes
+📅 2002-01-01: ✅ Datos directos - 11059 bytes
+📅 2003-01-01: ✅ Datos directos - 9500 bytes
+📅 2004-01-01: ✅ Datos directos - 11059 bytes
+📅 2005-01-01: ✅ Datos directos - 11059 bytes
+📅 2006-01-01: ✅ Datos directos - 11059 bytes
+📅 2007-01-01: ✅ Datos directos - 11059 bytes
+📅 2008-01-01: ✅ Datos directos - 11059 bytes
+📅 2009-01-01: ✅ Datos directos - 11059 bytes
+📅 2010-01-01: ✅ Datos directos - 11059 bytes
+📅 2011-01-01: ✅ Datos directos - 11059 bytes
+📅 2012-01-01: ✅ Datos directos - 11059 bytes
+📅 2013-01-01: ✅ Datos directos - 11059 bytes
+📅 2014-01-01: ✅ Datos directos - 11059 bytes
+📅 2015-01-01: ✅ Datos directos - 11059 bytes
+📅 2016-01-01: ✅ Datos directos - 11059 bytes
+📅 2017-01-01: ✅ Datos directos - 11059 bytes
+📅 2018-01-01: ✅ Datos directos - 11059 bytes
+📅 2019-01-01: ✅ Datos directos - 11059 bytes
+📅 2020-01-01: ✅ Datos directos - 11059 bytes
+
+================================================================================
+📊 RESUMEN DE DISPONIBILIDAD
+================================================================================
+
+✅ Años con datos disponibles: 31/31
+   Años: 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020
+
+❌ Años sin datos: 0/31
+
+📈 Por tipo de respuesta:
+   • direct_data: 31 años
+
+📅 Rango disponible: 1990 - 2020
+
+💾 Resultados guardados en: historical_data_check.json
+
+================================================================================
+💡 CONCLUSIONES
+================================================================================
+✅ SÍ se pueden obtener datos históricos
+   La colección C1598621096-GES_DISC tiene datos desde 1990
+
+================================================================================
